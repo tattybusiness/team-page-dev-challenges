@@ -1,0 +1,131 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0vw 5vw;
+}
+
+/* Left Container */
+.left-container {
+    margin: 20vw 0vw 10vw 0vw;
+}
+
+.left-container h1 {
+    font-size: 2rem;
+}
+
+/* Right Container */
+.right-container {
+    margin-bottom: 20vw;
+}
+
+.right-container h1, p {
+    font-family: 'Poppins';
+}
+
+.right-container h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.right-container p {
+    font-size: 0.8rem;
+    max-width: 300px;
+}
+
+/* Team Card Styles */
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 7vw;
+}
+
+.team-card {
+    display: flex;
+}
+
+.team-card img {
+    max-height: 50vw;
+}
+
+.team-card p {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-family: 'PT Serif';
+}
+
+.team-card h1 {
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+
+.margin {
+    margin-top: 10vw;
+}
+
+/* Footer */
+footer {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #A9A9A9;
+    font-family: 'Poppins';
+}
+
+footer p {
+    margin-top: 30vw;;
+    color: #A9A9A9;
+}
+
+/* Laptop Media Query */
+@media only screen and (min-width: 1024px) {
+    body {
+        margin: 0;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 10vw 0vw;
+    }
+
+    .left-container {
+        margin: 0;
+    }
+
+    .right-container {
+        margin: 0;
+    }
+
+    .right-container p {
+        font-size: 1em;
+        max-width: 500px;
+    }
+
+    section {
+        grid-template-columns: repeat(3, 10fr);
+        grid-template-rows: repeat(2, 2fr);
+        grid-row-gap: 4em;
+    }
+
+    .team-card img {
+        max-height: 30vw;
+    }
+
+    footer p {
+        margin-top: 10em;
+    }
+
+}
