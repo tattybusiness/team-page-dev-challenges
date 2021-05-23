@@ -38,8 +38,6 @@
 
 ![screenshot](https://i.gyazo.com/9b31e92a01cea85ccf742136b7cc31ee.jpg)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 - My demo is live using [Vercel](https://vercel.com/), the demo can be found [here](https://team-page-dev-challenges.vercel.app/)
 - Creating this page wasn't the easiest for me. I had a few things go wrong at the beginning: the positioning of the team cards was quite difficult and the text alignment was a bit of an issue also.
 - By creating this site I definitely improved a lot with grid and found new ways to use flexbox.
